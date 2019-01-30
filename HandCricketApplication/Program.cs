@@ -8,8 +8,11 @@ namespace HandCricketApplication
         {
             Handling handling = new Handling();
             IPlayOperation playingOperation = new PlayingOperation(handling);
-            playingOperation.GroupPlaying("Rahul", "Deva", "Mani", "Shyam", "Sairam", "Venkat", "Elango", "Ashok", "Dinesh", "Sudhershan",
-                "Aravind", "Arun", "Deepak", "Syed");
+            playingOperation.GroupPlaying("User1",
+                                          "User2",
+                                          "User3",
+                                          "User4",
+                                          "User5");
             handling.GetIndividualScore();
             handling.GetNoOfWins();
         }
