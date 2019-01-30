@@ -1,10 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using HandCricketApplication.Repository;
+using System;
 using System.Linq;
 
-namespace HandCricketApplication
+namespace HandCricketApplication.Context
 {
-    class PlayingOperation : IPlayOperation
+      class PlayingOperation : IPlayOperation
     {
         private IHandling _playHandling {get; set;}
         public PlayingOperation(Handling handling)

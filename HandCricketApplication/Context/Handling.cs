@@ -1,9 +1,10 @@
 ﻿using HandCricketApplication.Implementations;
+using HandCricketApplication.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace HandCricketApplication
+namespace HandCricketApplication.Context
 {
     class Handling : ScoreCalculator, IHandling, IPlayerDetails
     {
