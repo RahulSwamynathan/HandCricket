@@ -12,7 +12,7 @@ namespace HandCricketApplication
                                           "User2",
                                           "User3",
                                           "User4",
-                                          "User6");
+                                          "User5");
             handling.GetIndividualScore();
             handling.GetNoOfWins();
         }
