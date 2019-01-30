@@ -21,10 +21,5 @@ namespace HandCricketApplication.Implementations
             }
             return sorterd.Values.First();
         }
-
-        public void ProductRandomId()
-        {
-            Console.WriteLine(Guid.NewGuid().ToString());
-        }
     }
 }

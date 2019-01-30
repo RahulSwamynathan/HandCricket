@@ -42,17 +42,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Handling.cs" />
-    <Compile Include="IHandling.cs" />
+    <Compile Include="Context\Handling.cs" />
+    <Compile Include="Repository\IHandling.cs" />
     <Compile Include="Implementations\RandomGenerator.cs" />
-    <Compile Include="IPlayOperation.cs" />
-    <Compile Include="PlayingOperation.cs" />
+    <Compile Include="Repository\IPlayerDetails.cs" />
+    <Compile Include="Repository\IPlayOperation.cs" />
+    <Compile Include="Context\PlayingOperation.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ScoreCalculator.cs" />
+    <Compile Include="Repository\IScoreCalculator.cs" />
+    <Compile Include="Context\ScoreCalculator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
